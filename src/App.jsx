@@ -1,7 +1,13 @@
 import Router from './router'
+import Container from './components/container'
+
 
 function App() {
-  return <Router />
-}
+  return (
+    <Container>
+      <Router />
+    </Container>
+  )
+};
 
-export default App
+export default App;
