@@ -7,11 +7,11 @@ const index = () => {
     const router = createBrowserRouter([
         {
           path: "/",
-          element: <HomePage />
+          element: <HomePage />,
         },
         {
           path: "cart",
-          element: <CartPage/>
+          element: <CartPage/>,
         },
       ]);
     
