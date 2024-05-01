@@ -1,13 +1,13 @@
 import { Container, Image, WrapDesc, Label, Desc, Price } from './styles' 
 
-const index = () => (
+const index = ([ image, title, desc, price ]) => (
     <Container>
-        <Image/>
+        <Image src={image} />
 
         <WrapDesc>
-            <Label>Black Winter ...</Label>
-            <Desc>Autumn Winter And Casual cotton-padded jacket ...</Desc>
-            <Price>$37</Price>
+            <Label>{title}</Label>
+            <Desc>{desc}</Desc>
+            <Price>{'Rp. ${price}'}</Price>
         </WrapDesc>
 
         
