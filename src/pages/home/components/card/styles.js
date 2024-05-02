@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    width: 164px;
+    width: 42%;
     background-color: #edede9;
     border-radius: 12px;
+    margin: 0 2%;
+    margin-bottom: 15px;
     overflow: hidden;
-    margin-left: 16px;
     padding: 8px;
-    box-shadow: 4px 1px 4px 1px rgba(0,0,0,0.20);
+    box-shadow: 0px 1px 4px 1px rgba(0,0,0,0.20);
 `;
 
 export const Image = styled.img`

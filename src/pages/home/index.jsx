@@ -1,5 +1,6 @@
 import Topbar from './components/topbar';
-import Card from './components/card'
+import Card from './components/card';
+import { Container } from './styles';
 
 const index = () => {
     const listProduct = [
@@ -32,7 +33,9 @@ const index = () => {
         <>
             <Topbar />
            
-            {listProduct.map ((item, index) => <Card key={String(index)} {...item} />  )}
+            <Container>
+                {listProduct.map ((item, index) => <Card key={String(index)} {...item} />  )}
+            </Container>
         </>
 )
 };
